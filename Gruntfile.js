@@ -24,9 +24,9 @@ module.exports = function(grunt) {
 
         shell: {
             runApp: {
-                command: '/Applications/node-webkit.app/Contents/MacOS/node-webkit ./app'
+                command: 'nodewebkit ./app'
             }
-        }        
+        }
 
     });
 
